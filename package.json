@@ -1,0 +1,22 @@
+{
+  "name": "webpage",
+  "version": "1.0.0",
+  "description": "Personal webpage for portfolio and project links",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w SCSS/ -o dist/CSS/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Speered/HomePage.git"
+  },
+  "author": "Casper K. Jensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Speered/HomePage/issues"
+  },
+  "homepage": "https://github.com/Speered/HomePage#readme",
+  "dependencies": {
+    "node-sass": "^4.13.0"
+  }
+}
